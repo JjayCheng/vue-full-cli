@@ -1,0 +1,15 @@
+.hello[data-v-297046db] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hello h1[data-v-297046db] {
+  text-align: center;
+  font-size: 30px;
+  color: #666;
+}
+.hello .count[data-v-297046db] {
+  text-align: center;
+  margin-top: 20px;
+}
+
