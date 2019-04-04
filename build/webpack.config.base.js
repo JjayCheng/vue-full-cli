@@ -18,6 +18,7 @@ const config = {
     rules: [
       { test: /\.vue$/, use: {loader: 'vue-loader', options:{extractCSS: false}}},
       { test: /\.js$/, exclude: __dirname + 'node_modules', include: __dirname + 'src', loader: "babel-loader" },
+      {test: /\.jsx$/, use: 'babel-loader'},
       {
         test: /\.(jpg|gif|svg|png|jpeg)$/,
         use: {
