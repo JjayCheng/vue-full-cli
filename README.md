@@ -1,6 +1,6 @@
 # Webpack Vue Demo
 
-webpack 个人vue脚手架
+webpack 个人vue全家桶 脚手架 
 
   npm包:
     webpack, webpack-cli, webpack-dev-server, // webpack
@@ -10,7 +10,7 @@ webpack 个人vue脚手架
       rimraf // 删除dist目录
       webpack-merge // 合并 webpack.config
       cross-env(可选, 设置环境变量, 为什么要使用，因为各平台设置变量的方式不同)(cross-env xx=xx)
-
+      vue-router vuex
     Loader: // 层级关系
       .css处理
         style-loader // 以js代码将css-loader处理的样式插入到html里
