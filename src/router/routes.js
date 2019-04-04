@@ -1,6 +1,6 @@
-const hi = () => import('../components/hi.vue');
-const hello = () => import('../components/hello.vue');
-const usr = () => import('../components/usr.vue');
+const hi = () => import('../pages/hi.vue');
+const hello = () => import('../pages/hello.vue');
+const usr = () => import('../pages/usr.vue');
 
 export default [
   {
@@ -19,5 +19,5 @@ export default [
     path: '/usr/:id',
     props: true,
     component: usr
-  }
+	}
 ]
